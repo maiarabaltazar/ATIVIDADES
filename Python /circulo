@@ -1,0 +1,8 @@
+# Fazer um programa para ler o valor "r" do raio de um círculo,
+# e depois mostrar o valor da área do  círculo com três casas decimais.
+
+raio = float(input("Digite o valor do raio do circulo: "))
+
+area = 3.14159 * raio ** 2
+
+print(f"Area = {area: .3f}")
