@@ -1,0 +1,12 @@
+# Fazer um programa para ler o nome de um(a) funcionário(a),
+# o valor que ele(a) recebe por hora, e a  quantidade de horas trabalhadas por ele(a).
+# Ao final, mostrar o valor do pagamento do funcionário com  uma mensagem explicativa.
+
+
+nome = str(input("Nome: "))
+valor_hora = float(input("Valor por hora: "))
+horas = int(input("Horas trabalhadas: "))
+
+pagamento = valor_hora * horas
+
+print(f"O pagamento de {nome} deve ser de {pagamento: .2f} reais.")
