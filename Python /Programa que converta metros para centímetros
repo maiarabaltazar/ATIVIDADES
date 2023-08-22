@@ -1,0 +1,5 @@
+cm = float(input("Informe o comprimento em centímetros: "))
+
+m = cm/100
+
+print(f"{cm} centímetros equivalem a {m} metros")
