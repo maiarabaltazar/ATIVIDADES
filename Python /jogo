@@ -1,0 +1,24 @@
+##
+Crie um jogo em que é gerado um número aleatório e o usuário tentará descobrir qual é. 
+O programa deverá informar se o palpite dado está alto ou baixo.
+##
+
+import random
+
+numero_aleatorio = random.randint(1,10)
+
+
+def verifica_numero():
+    numero_informado = int(input("Adivinhe o número gerado pelo programa: "))
+    
+    if numero_informado < numero_aleatorio:
+        print("O número informado é menor")
+        verifica_numero()
+    elif numero_informado > numero_aleatorio:
+        print("O número informado é maior")
+        verifica_numero()
+    elif numero_informado == numero_aleatorio:
+        print("PARABÉNS, VOCÊ ACERTOU !!!")
+        
+    
+verifica_numero()
