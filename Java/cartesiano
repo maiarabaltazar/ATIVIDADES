@@ -42,6 +42,7 @@ public class cartesiano {
 			System.out.print("Origem.");
 		}
 		
+		sc.close();
 	}
 
 }
