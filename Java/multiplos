@@ -31,6 +31,7 @@ public class multiplos {
 			System.out.print("Esses números não são múltiplos.");
 		}
 		
+		sc.close();
 		
 	}
 
