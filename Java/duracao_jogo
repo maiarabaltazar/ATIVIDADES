@@ -27,6 +27,8 @@ public class duracao_jogo {
 		
 		System.out.print("O jogo durou " + duracao + " hora(s).");
 		
+		sc.close();
 	}
 
 }
+
